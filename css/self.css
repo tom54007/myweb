@@ -1,0 +1,206 @@
+.box1{
+    position: absolute;
+    box-sizing: border-box;
+    left: 15px;
+    width: 230px;
+    height: 290px;
+    border-radius: 5px;
+    background-color: #9cbfcc;
+    background-image: url(../images/gmail.png);
+    background-repeat: no-repeat;
+    background-size: 116px;
+    background-position: 56px 58px;
+}
+
+.box2{
+    position: absolute;
+    left: 260px;
+    width: 230px;
+    height: 290px;
+    border-radius: 5px;
+    background-color: #6bb790;
+    background-image: url(../images/news.png);
+    background-repeat: no-repeat;
+    background-size: 116px;
+    background-position: 56px 58px;
+
+}
+
+.box3{
+    position: absolute;
+    left: 505px;
+    width: 230px;
+    height: 290px;
+    border-radius: 5px;
+    background-color: #f5b227;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-size: 116px;
+    background-position: 56px 58px;
+
+}
+
+.efficient {
+	color: #FFFFFF;
+	position: relative;
+	left: 58px;
+	top: 170px;
+}
+
+/*
+ * ----------------------------------
+ * |                                |
+ * -------css挑战题css设置代码 ----------
+ * |                                |
+ * ----------------------------------
+ */
+body {
+	background-color: #e4e4e4;
+	margin-top: 5px;	
+}
+
+
+
+.comment {
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+	width: 700px;
+	margin: 5px 355px;
+	padding:10px 20px;
+	border-left: solid 3px #55cb52;
+}
+
+.username {
+	font-size: 15px;
+	color: #372e8e;
+}
+
+.timehours {
+	font-size: 10px;
+	color: #8b91b4;
+}
+
+.reply-dark {
+	background-color: #E4E4E4;
+	padding: 10px 20px;
+}
+
+.reply-light {
+	background-color: #FFFFFF;
+	padding: 10px 20px;
+}
+
+
+/*
+ * 
+ * -----------------------------
+ *         minecraft基础题                  |
+ * -----------------------------
+ * 
+ * 
+ */
+
+
+.minecraft-bg {
+	margin: 0px;
+	background: url(../images/brick.jpg);
+	background-size: 150px 150px;
+}
+
+.photoframe {
+	border: solid 8px rgb(210, 157, 65);
+	background: rgb(36, 130, 255);
+	width: 320px;
+	height: 256px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+}
+
+.wall {
+	background: url(../images/grass.png);
+	background-size: 64px 64px;
+	width: 192px;
+	height: 192px;
+	position: absolute;
+	left: 50%;
+	top:62.5%;
+	transform: translate(-50%, -50%);
+}
+
+.redflawor {
+	width: 64px;
+	height: 64px;
+	background-color: rgb(36, 130, 255);
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+}
+
+.yellowflawor {
+	width: 64px;
+	height: 64px;
+	background-color: rgb(36, 130, 255);
+	position: absolute;
+	left: 50%;
+	top:-16.5%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+/*
+ * 
+ * -----------------------------
+ *         minecraft挑战题                  |
+ * -----------------------------
+ * 
+ * 
+ */
+
+.halfwall-bg {
+	background: url(../images/brick.jpg);
+	background-size: 64px 64px;
+	height: 384px;
+}
+
+.fireplace-bg {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	transform: translateX(-50%);
+	background: url(../images/cobble_stone.png);
+	background-size: 64px 64px;
+	height: 384px;
+	width: 256px;
+}
+
+.fireplace {
+	background: url(../images/stonebrick.png);
+	background-size: 64px 64px;
+	height: 192px;
+	width: 256px;
+	position: absolute;
+	top: 50%;
+}
+
+.fireplacecave {
+	background: url(../images/inner_cobble_stone.png);
+	background-size: 64px 64px;
+	height: 128px;
+	width: 128px;
+	position: absolute;
+	top: 64px;
+	left: 64px;
+}
+
+.flame {
+	background: url(../images/har.gif);
+	background-size: 128px 128px;
+	height: 128px;
+	width: 128px;
+	position: absolute;
+	background-repeat: no-repeat;
+}
